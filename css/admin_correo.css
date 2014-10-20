@@ -1,0 +1,67 @@
+body{
+	font: 13px normal Helvetica, Arial, sans-serif;
+	position: relative;
+	margin:0;
+	padding:0;
+	background-color: #233836;
+}
+#contenedor{
+	padding-top:10px;
+}
+legend{
+	border:1px  solid #919974;
+	border-radius:5px;
+	background-color:#c9cdbc;
+}
+
+#ventana1{
+	width:450px;
+	height:200px;
+	float: left;
+	border:1px  solid #919974;
+	background-color:#EDEDED;
+}
+.etiq{
+	display: block;
+	width:80px;
+	float: left;
+}
+#ventana2{
+	width:420px;
+	height:200px;
+	float: left;
+	border:1px  solid #919974;
+	background-color:#EDEDED;
+}
+#ventana3{
+	clear: both;
+	width:895px;
+	display: block;
+	border:1px  solid #919974;
+	background-color:#EDEDED;
+}
+#tablaescuela{
+	border:1px  solid #919974;
+	border-radius:5px;
+	background-color:#536093;
+	color:white;
+}
+#tablaescuela .tablacuerpo{
+	border:1px  solid #919974;
+	border-radius:3px;
+	background-color:#d9e6da;
+	color:black;
+	font: 11px sans-serif;
+}
+#tablaescuela tr:hover{
+	background-color:#a0c0a3;
+}
+#tablaescuela tr #marcar
+{
+	background-color:#f37c76;
+}
+#tablaescuela #mensajecuerpo{
+	text-align: left;
+	font-weight: normal;
+	background-color:#eef4ee;
+}

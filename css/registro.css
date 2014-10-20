@@ -1,0 +1,117 @@
+body{
+	background-color: black;
+}
+#contenedor{
+	
+	margin: 0px auto;
+	margin-top:50px;
+	width:650px;
+	color:white;
+	
+}
+#cabecera
+{
+	text-align: center;	
+}
+#logo{
+	width:25%;
+}
+#alerta{
+	background-color:#EDEDED;
+	color:red;
+	position: absolute;
+	left:10px;
+	border:1px  solid #919974;
+	border-radius:5px;
+	width:210px;
+}
+#cuerpo
+{
+	font-weight: bold;
+	font-size:18px;
+	background-color:#EDEDED;
+	height:500px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+	border:1px  solid #919974;
+	border-radius:5px;
+	padding:5px;
+	text-align: center;
+	box-shadow:2px 2px 20px #cdd0d1; 
+}
+table{
+	text-align: center;
+	width:500px;
+}
+#mensaje_centro
+{
+	color:#212A00;
+}
+label{
+	display: block;
+}
+fieldset{
+	border:1px  solid #aab095;
+	border-radius:5px;
+}
+legend{
+	border:4px  solid #919974;
+	border-radius:5px;
+	font-weight: bold;
+	font-size:17px;
+	background-color:#A2CC2C;
+	background-image: -moz-linear-gradient(#A2CC2C, #d8eca4);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #d8eca4),color-stop(1, #A2CC2C));
+}
+#boton{
+	background-color:#A2CC2C;
+	border:2px solid white;
+	border-radius:5px;
+	font-weight: bold;
+	width:100px;
+	height:30px;
+	background-image: -moz-linear-gradient(#A2CC2C, #d8eca4);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #d8eca4),color-stop(1, #A2CC2C));
+}
+#ventana_registro{
+	border:2px solid #818962;
+	border-radius:5px;
+	margin-bottom:5px;
+	height:100px;
+	background-color:#A3BFD7;
+}
+.titulo{
+	background-color:#696969;
+	height:25px;
+	color:#fffdff;
+	font: 17px Helvetica;
+	font-weight: bold;
+	padding-top:4px;
+	padding-left:8px;
+	background-image: -moz-linear-gradient(#696969, #a0a0a0);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #a0a0a0),color-stop(1, #696969));
+}
+#cuerpo_registro2{
+	text-align: center;
+	font-weight: bold;
+	font-size:10px;
+	padding-top:5px;
+	
+	
+}
+#centro_registro{
+	margin:0 auto;
+	width:384px;
+	height:40px;
+	border-radius:5px;
+	background-color:#4272BE;
+	padding-top:15px;
+}
+#cuerpo_registro2 a{
+	text-decoration: none;
+	color:white;
+	font-size:15px;
+}
+#colorazul{
+	color:#35ce31;
+}

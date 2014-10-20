@@ -1,0 +1,35 @@
+body{
+	background-color: #274422
+}
+#contenedor{
+	
+	margin: 0px auto;
+	margin-top:50px;
+	width:400px;
+	
+}
+legend{
+	border:1px  solid #919974;
+	border-radius:5px;
+	background-color:#c9cdbc;
+}
+fieldset{
+	border-radius:10px;
+	shadow-box:3x 3x 6x black;
+	margin-bottom:10px;
+}
+#backup
+{
+	background-color:#919974;
+	color:white;
+	font-size:15px;
+	
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:#46b6b9;
+
+}

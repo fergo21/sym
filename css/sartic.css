@@ -1,0 +1,116 @@
+body{
+	background-color: black;
+}
+#contenedor{
+	
+	margin: 0px auto;
+	margin-top:50px;
+	width:400px;
+	
+}
+#cabecera
+{
+	text-align: center;	
+}
+#logo{
+	width:50%;
+}
+#cuerpo
+{
+		
+		width:400px;
+		height:283px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+		border:1px  solid #919974;
+		border-radius:5px;
+		padding:5px;
+}
+#cuerpo_exito
+{
+		
+		width:400px;
+		height:110px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+		border:1px  solid #919974;
+		border-radius:5px;
+		padding:5px;
+}
+#ventana_login{
+	position: relative;
+	border:2px solid #818962;
+	border-radius:5px;
+	margin-bottom:5px;
+	height:170px;
+	background-color:#D7DEBF;
+	
+}
+#llave{
+	position: absolute;
+	left:280px;
+	top:-10px;
+}
+#ventana_registro{
+	border:2px solid #818962;
+	border-radius:5px;
+	margin-bottom:5px;
+	height:100px;
+	background-color:#A3BFD7;
+}
+.titulo{
+	background-color:#696969;
+	height:25px;
+	color:#fffdff;
+	font: 17px Helvetica;
+	font-weight: bold;
+	padding-top:4px;
+	padding-left:8px;
+	background-image: -moz-linear-gradient(#696969, #a0a0a0);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #a0a0a0),color-stop(1, #696969));
+}
+#cuerpo_registro1{
+	color:#4D6116;
+	font-weight: bold;
+	padding-top:15px;
+	padding-left:25px;
+
+}
+label{
+	display: block;
+}
+#boton{
+	background-color:#A2CC2C;
+	border:2px solid white;
+	border-radius:5px;
+	font-weight: bold;
+	width:80px;
+	height:30px;
+	background-image: -moz-linear-gradient(#A2CC2C, #d8eca4);
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #d8eca4),color-stop(1, #A2CC2C));
+}
+#cuerpo_registro2{
+	text-align: center;
+	font-weight: bold;
+	font-size:10px;
+	padding-top:5px;
+	
+	
+}
+#centro_registro{
+	margin:0 auto;
+	width:384px;
+	height:40px;
+	border-radius:5px;
+	background-color:#4272BE;
+	padding-top:15px;
+}
+#cuerpo_registro2 a{
+	text-decoration: none;
+	color:white;
+	font-size:15px;
+}
+#colorazul{
+	color:#35ce31;
+}
+

@@ -1,0 +1,39 @@
+body{
+	background-color:#274422;
+}
+#contenedor{
+	margin:0 auto;
+	width:900px;	
+}
+#encabezado{
+	box-shadow:3px 3px 6px black;
+	height:100px;
+}
+td{
+	background-color:#bcdbb7;
+}
+.novedad{
+	background-color:#fcfefc;
+	box-shadow:3px 3px 6px black;
+	height:90px;
+	width:500px;
+	font-size:12px;
+	font:helvetica,sans-serif;
+	margin-bottom:10px;
+}
+.titulo{
+	font-size:15px;
+	font-weight: bold;
+	color:white;
+	background-color:#6f7cac;
+}
+#logo_novedad{
+	padding-top:8px;
+	width:78px;
+	float: left;
+}
+#tabla_novedad{
+	padding-top:3px;
+	float: left;
+	width:420px
+}
