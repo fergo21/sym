@@ -11,4 +11,12 @@ public function index()
 	{
 		$this->load->view('login');
 	}
+public function muestradefault()
+	{
+		$this->load->view('home');
+	}
+public function muestraabout()
+	{
+		$this->load->view('about');
+	}
 }

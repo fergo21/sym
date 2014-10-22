@@ -1,0 +1,94 @@
+body{
+	background-image: url(http://localhost/sym/img/13.jpg);
+}
+#contenedor{
+	background-color:#ffffff;
+	margin: 0px auto;
+	width: 960px;
+	border: 1px solid black;
+}
+.cabecera{
+	background-image: url(http://localhost/sym/img/sym.png);	
+	height: 120px;
+	-moz-box-shadow: inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+
+	
+}
+#cuerpo{
+	height: 600px;
+	border: 1px solid black;
+	
+}
+/*EFECTO MENU*/
+.menusup { 
+		-moz-box-shadow: inset 0 0 10px #000000;
+		-webkit-box-shadow: inset 0 0 10px #000000;
+		box-shadow: inset 0 0 10px #000000;
+		background:#dd7253;
+		width:auto;
+		height:33px;
+		text-transform:uppercase;
+		padding:0 0 0 20px;
+		font-weight:bold;
+	}
+.menusup ul{
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		width:auto;
+		float:left;
+		}
+.menusup ul li{
+		display:block;
+		float:left;
+		margin:0px 3px;
+		}
+.menusup ul li a{
+		display:block;
+		float:left;
+		color:#ffffff;
+		text-decoration:none;
+		padding:0 0 0 20px;
+		height:33px;
+		}
+.menusup ul li a span{
+		padding:8px 30px 0 10px;
+		height:21px;
+		float:left;
+		}
+.menusup ul li a:hover{
+		color:#a2211e;
+		
+		}
+.menusup ul li a:hover span{
+		display:block;
+		width:auto;
+		cursor:pointer;
+		}
+#menuinf{
+	height: 565px;
+	width: auto;
+	border: 1px solid black;
+	background: #ffffff;
+	color: #040033;
+}
+#pie{
+	text-align: right;
+	color: #0b0000;
+	border:1px solid black;
+}
+/*Pagina Login*/
+#login{
+	border: 1px solid black;
+	width: 300px;
+	height:140px;
+}
+#registrarse{
+	border: 1px solid black;
+	width: 300px;
+	height:350px;
+}
+
+
