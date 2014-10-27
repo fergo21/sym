@@ -9,7 +9,10 @@ class Sym extends CI_Controller {
 	}
 public function index()
 	{
-		$this->load->view('login');
+		$misdatos=array(
+					'informacion'=>$this->sym_modelo->buscarmisdatos(950),
+					);
+					$this->load->view('login', $misdatos);
 	}
 public function muestradefault()
 	{
@@ -18,5 +21,49 @@ public function muestradefault()
 public function muestraabout()
 	{
 		$this->load->view('about');
+	}
+public function muestraregistro()
+	{
+		$this->load->view('registrar');
+	}
+public function muestracontacto()
+	{
+		$this->load->view('contact');
+	}
+public function validar()
+	{
+		if($_POST)
+		{
+			if(isset($_POST['btn_validar']))
+			{
+				$datos=array(
+				'usuario' => $this->input->post('usuario'),
+				'clave' => $this->input->post('clave'),
+				);
+				$datos_usuario=$this->sym_modelo->buscarusuario($datos);
+				//La funcion si encuentra el ussuario trae resultado
+				if($datos_usuario->result())
+				{
+					$this->session->set_userdata('idusuario', $datos_usuario->row()->idusuario);
+					$misdatos=array(
+					'informacion' =>$this->sym_modelo->buscarmisdatos($datos_usuario->row()->idusuario),
+					);
+					$this->load->view('login', $misdatos);
+				}
+				
+				else
+				{
+					$misdatos=array(
+					'informacion'=>$this->sym_modelo->buscarmisdatos(950),
+					);
+					$this->load->view('login', $misdatos);
+				}
+				
+			}
+		}
+	
+	
+	
+		
 	}
 }
