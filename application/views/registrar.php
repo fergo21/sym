@@ -8,7 +8,7 @@
 <body>
 	<fieldset id="Registrarse">
 		<legend>Registrarse</legend>
-		<form>
+		<?= form_open("index.php/Sym/muestraregistro") ?>
 		<label>Nombre</label><br>
 		<input type="text" name="nombre"/><br>
 		<label>Apellido</label><br>
@@ -19,8 +19,8 @@
 		<input type="radio" name="sexo" value="masculino" /><label>Masculino</label><input type="radio" name="sexo" value="femenino"/><label>Fenenino</label><br>
 		<label>DNI</label><br>
 		<input type="text" name="dni"/> <label style="font-style:italic; color:red;"> Ej: 12345678</label><br> 
-		<label>Mail</label><br>
-		<input type="text" name="mail"/><br>
+		<label>Email</label><br>
+		<input type="text" name="email"/><br>
 		<hr>
 		<label>User</label><br>
 		<input type="text" name="user"/><br>
@@ -28,7 +28,8 @@
 		<input type="text" name="password"/>
 		<br>
 		<br>
-		<center></center><input type="button" value="Confirmar" /></center>
+		<center></center><input type="submit" value="Confirmar" /></center>
+		
 		</form>
 	</fieldset>
 </body>

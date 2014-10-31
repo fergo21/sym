@@ -22,9 +22,30 @@ public function muestraabout()
 	{
 		$this->load->view('about');
 	}
+public function regexito()
+	{
+		$this->load->view('regexit');
+	}
 public function muestraregistro()
 	{
+	
+		if($_POST)
+		{
+			$misdatos=array(
+					'nombre'=>$this->input->post('nombre'),
+					'apellido'=>$this->input->post('apellido'),
+					'fechadenacimiento'=>$this->input->post('fechadenacimiento'),
+					'sexo'=>$this->input->post('sexo'),
+					'dni'=>$this->input->post('dni'),
+					'email'=>$this->input->post('email'),
+					'usuario'=>$this->input->post('user'),
+					'clave'=>$this->input->post('password'),
+					);
+			$this->sym_modelo->registrar($misdatos);
+			redirect("index.php/Sym/regexito");
+		}
 		$this->load->view('registrar');
+		
 	}
 public function muestracontacto()
 	{
