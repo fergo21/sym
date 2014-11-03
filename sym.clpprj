@@ -21438,33 +21438,83 @@
 				<treenode node="V;PHP:Var Name;C:\xampp\htdocs\sym\application\libraries\PHPExcel\Shared\JAMA\SingularValueDecomposition.php;f9;31;11;31;;;;vposarray;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Sym;PHP:Class Name;C:\xampp\htdocs\sym\application\controllers\sartic.php;f0;2;1;13;;C:\xampp\htdocs\sym\application\controllers\sym.php;f0;2;1;68;;;;vpos;;vCI_Controller;;c;;r;;d32,2;;b0,0;;m">
+			<treenode node="Sym;PHP:Class Name;C:\xampp\htdocs\sym\application\controllers\sartic.php;f0;2;1;13;;C:\xampp\htdocs\sym\application\controllers\sym.php;f0;2;1;89;;;;vpos;;vCI_Controller;;c;;r;;d32,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sartic.php;f8;4;2;8;;C:\xampp\htdocs\sym\application\controllers\sym.php;f8;4;2;8;;;;vpos;;v;;r;;d1,5;;b1,0;;m">
 				</treenode>
 				<treenode node="index;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sartic.php;f7;9;2;12;;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;9;2;15;;;;vpos;;v;;r;;d1,10;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sartic.php;f2;11;7;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f2;11;11;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sartic.php;f2;11;7;11;;C:\xampp\htdocs\sym\application\controllers\sym.php;f20;12;25;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="muestraabout;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;20;2;23;;;;vpos;;v;;r;;d1,21;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f2;22;7;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="muestracontacto;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;28;2;31;;;;vpos;;v;;r;;d1,29;;b1,0;;m">
+				<treenode node="muestracontacto;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;49;2;52;;;;vpos;;v;;r;;d1,50;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f2;51;7;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="muestradefault;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;16;2;19;;;;vpos;;v;;r;;d1,17;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f2;18;7;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="muestraregistro;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;24;2;27;;;;vpos;;v;;r;;d1,25;;b1,0;;m">
+				<treenode node="muestraregistro;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;28;2;48;;;;vpos;;v;;r;;d1,29;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f5;31;11;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f3;33;12;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f15;34;20;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="validar;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;32;2;67;;;;vpos;;v;;r;;d1,33;;b1,0;;m">
+				<treenode node="regexito;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;24;2;27;;;;vpos;;v;;r;;d1,25;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f2;26;7;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="validar;PHP:Function Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f7;53;2;88;;;;vpos;;v;;r;;d1,54;;b1,0;;m">
+					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f5;55;11;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f4;59;10;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="datos_usuario;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f4;63;18;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="misdatos;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f5;68;14;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\controllers\sym.php;f17;60;22;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="Sym_modelo;PHP:Class Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f0;2;1;21;;;;vpos;;vCI_Model;;c;;r;;d34,2;;b0,0;;m">
+			<treenode node="Sym_modelo;PHP:Class Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f0;2;1;47;;;;vpos;;vCI_Model;;c;;r;;d34,2;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f1;3;2;6;;;;vpos;;v;;r;;d24,3;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f2;5;7;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 				<treenode node="buscarmisdatos;PHP:Function Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f7;15;2;19;;;;vpos;;v;;r;;d1,16;;b1,0;;mid;;p">
+					<treenode node="consulta;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f2;17;11;17;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f31;15;34;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f14;17;19;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="buscarusuario;PHP:Function Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f7;7;2;14;;;;vpos;;v;;r;;d1,8;;b1,0;;mdatos;;p">
 					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f30;7;36;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f9;13;14;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="valor;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f2;9;8;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="registrar;PHP:Function Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f7;20;2;46;;;;vpos;;v;;r;;d1,21;;b1,0;;mdatos;;p">
+					<treenode node="datos;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f26;20;32;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f2;37;5;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="resultado;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f2;35;12;35;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f2;31;7;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="valor;PHP:Var Name;C:\xampp\htdocs\sym\application\models\sym_modelo.php;f2;22;8;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -23186,14 +23236,15 @@
 		<file name="C:\xampp\htdocs\sym\sql\sartic.sql" crc="-1659616016"/>
 		<file name="C:\xampp\htdocs\sym\php\conexion.php" crc="-1709712929"/>
 		<file name="C:\xampp\htdocs\sym\application\views\welcome_message.php" crc="-1096352537"/>
-		<file name="C:\xampp\htdocs\sym\application\views\registrar.php" crc="-1069440372"/>
+		<file name="C:\xampp\htdocs\sym\application\views\registrar.php" crc="1611052464"/>
+		<file name="C:\xampp\htdocs\sym\application\views\regexit.php" crc="-1761773933"/>
 		<file name="C:\xampp\htdocs\sym\application\views\login.php" crc="621910544"/>
 		<file name="C:\xampp\htdocs\sym\application\views\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\sym\application\views\home.php" crc="1678805653"/>
 		<file name="C:\xampp\htdocs\sym\application\views\contact.php" crc="-304499165"/>
 		<file name="C:\xampp\htdocs\sym\application\views\about.php" crc="-1589952505"/>
 		<file name="C:\xampp\htdocs\sym\application\third_party\index.html" crc="-1574479902"/>
-		<file name="C:\xampp\htdocs\sym\application\models\sym_modelo.php" crc="436409396"/>
+		<file name="C:\xampp\htdocs\sym\application\models\sym_modelo.php" crc="406799592"/>
 		<file name="C:\xampp\htdocs\sym\application\models\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\sym\application\logs\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\sym\application\libraries\PHPExcel\Writer\PDF\tcPDF.php" crc="238397053"/>
@@ -23398,7 +23449,7 @@
 		<file name="C:\xampp\htdocs\sym\application\errors\error_404.php" crc="1631448776"/>
 		<file name="C:\xampp\htdocs\sym\application\core\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\sym\application\controllers\welcome.php" crc="-1821039607"/>
-		<file name="C:\xampp\htdocs\sym\application\controllers\sym.php" crc="1392684986"/>
+		<file name="C:\xampp\htdocs\sym\application\controllers\sym.php" crc="-1444943447"/>
 		<file name="C:\xampp\htdocs\sym\application\controllers\index.html" crc="-1574479902"/>
 		<file name="C:\xampp\htdocs\sym\application\config\user_agents.php" crc="-484381080"/>
 		<file name="C:\xampp\htdocs\sym\application\config\smileys.php" crc="-749249654"/>

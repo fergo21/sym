@@ -45,5 +45,20 @@ public function registrar($datos)
 		
 		$this->db->insert('login', $valor);
 	}
+public function registrarcontenido($datos)
+	{
+		$valor=array(
+					'titulo'=>$datos['titulo'],
+					'fecha'=>$datos['fecha'],
+					'descripcion'=>$datos['descripcion'],
+					'idusuario'=>$datos['idusuario'],
+		);
+		$this->db->insert('contenido', $valor);
+	}
+public function buscarcontenido()
+	{
+		$consulta = $this->db->query("select * from contenido");
+		return $consulta;
+	}
 }
 ?>

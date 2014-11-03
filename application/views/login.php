@@ -23,7 +23,7 @@
 			
 			<div class="menusup">
   				<ul>
-					<li><a href="<?php echo site_url('index.php/Sym/muestradefault') ?>" target="marco" title="Pagina principal"><span>Home</span></a></li>
+					<li><a href="<?php echo site_url('index.php/Sym/muestracontenido') ?>" target="marco" title="Pagina principal"><span>Home</span></a></li>
 					<li><a href="<?php echo site_url('index.php/Sym/muestraabout') ?>" target="marco" title="Sobre la institucion" ><span>About Us</span></a></li>
 					<li><a href="#" title="Servicios"><span>Services</span></a></li>
 					<li><a href="#modal" title="Ingresar"><span>Login</span></a></li> 

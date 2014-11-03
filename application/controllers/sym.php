@@ -83,8 +83,27 @@ public function validar()
 			}
 		}
 	
+	}
 	
+public function muestracontenido()
+	{
 	
+		if($_POST)
+		{
+			$misdatos=array(
+					'titulo'=>$this->input->post('titulo'),
+					'fecha'=>$this->input->post('fecha'),
+					'descripcion'=>$this->input->post('contenido'),
+					'idusuario'=>1,
+					);
+			$this->sym_modelo->registrarcontenido($misdatos);
+			//redirect("index.php/Sym/regexito");
+		}
+		$miscontenidos=array(
+					'contenidos'=>$this->sym_modelo->buscarcontenido(),
+					);
+		$this->load->view('gcont', $miscontenidos);
+		
 		
 	}
 }
