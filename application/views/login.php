@@ -12,10 +12,20 @@
 		<div id="contendor">
 			<div id="cabecera">
 				<img src="http://localhost/sym/img/symeg1.png"/>
-				<div style="float: right">
+				<div id="perfil" style="float: right">
 				<?php foreach($informacion->result() as $dato) {?>
-					<p><?php echo"$dato->nombre"; ?></p>
+					<?php 
+					if($dato->nombre != ''){
+						echo"$dato->nombre";
+						?>
+						<a href="<?php echo site_url('index.php/Sym/muestraperfil') ?>" target="marco" title="perfil">Ir a perfil</a>
+						<button><a href="<?php echo site_url('index.php/Sym/cerrar_sesion') ?>" title="cerrarsesiion">Cerrar sesion</a></button> 
+						<?php 
+						}
+						?>
+					
 				<?php }?>
+				
 				</div>
 			</div>
 			

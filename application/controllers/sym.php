@@ -84,7 +84,32 @@ public function validar()
 		}
 	
 	}
-	
+public function muestraperfil()
+	{
+		$id=$this->session->userdata['idusuario'];
+		if($_POST)
+		{
+			$misdatos=array(
+					'nombre'=>$this->input->post('nombre'),
+					'apellido'=>$this->input->post('apellido'),
+					'fechadenacimiento'=>$this->input->post('fechadenacimiento'),
+					'sexo'=>$this->input->post('sexo'),
+					'dni'=>$this->input->post('dni'),
+					'email'=>$this->input->post('email'),
+					'clave'=>$this->input->post('password'),
+					);
+			$this->sym_modelo->actualizarperfil($misdatos);
+		}
+		$misdatos=array(
+					'informacion'=>$this->sym_modelo->buscarmisdatos($id),
+					);
+		$this->load->view('perfil', $misdatos);
+	}
+public function cerrar_sesion()
+	{
+		$this->session->unset_userdata('idusuario');
+		redirect('index.php');
+	}
 public function muestracontenido()
 	{
 	
