@@ -9,8 +9,12 @@
 	<fieldset id="Registrarse">
 		<legend>Registrarse</legend>
 		<?= form_open("index.php/Sym/muestraregistro") ?>
-		<label>Nombre</label><br>
-		<input type="text" name="nombre"/><br>
+		<label for="nombre">Nombre</label><br>
+		<input type="text" name="nombre"/>
+		<?php if(form_error('nombre'))
+		{
+			echo "<img src='../../img/error.png'>";
+		} ?><br>
 		<label>Apellido</label><br>
 		<input type="text" name="apellido"/><br>
 		<label>Fecha de Nacimiento</label><br>
@@ -25,12 +29,15 @@
 		<label>User</label><br>
 		<input type="text" name="user"/><br>
 		<label>Password</label><br>
-		<input type="text" name="password"/>
+		<input required="true" type="text" name="password"/>
 		<br>
 		<br>
 		<center></center><input type="submit" value="Confirmar" /></center>
 		
 		</form>
+		<hr>
+		<label>Errores: </label>
+		<?php echo validation_errors(); ?>
 	</fieldset>
 </body>
 </html>
